@@ -7,17 +7,17 @@
     <title>Flexbox Tutorial</title>
     <link rel="stylesheet" href="./styles.css" />
     <style>
+      /* flex direction */
+      /* row (default) row-reverse column column-reverse */
       .container {
         display: flex;
+        /* display: inline-flex; */
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-wrap: nowrap; */
         flex-wrap: wrap;
-        /* justify-content horizontal alignment */
-        /* flex-start (default) flex-end center*/
-        /* evenly distributed */
-        justify-content: space-between;
-        /* space-between first item start last end */
-
-        /* space-around side margins */
-        /* space-around even margins */
+        /* flex-wrap: wrap-reverse; */
       }
     </style>
   </head>
@@ -31,11 +31,11 @@
       <div class="box box-3">3</div>
       <div class="box box-4">4</div>
       <div class="box box-5">5</div>
-      <!-- <div class="box generic">G</div>
       <div class="box generic">G</div>
       <div class="box generic">G</div>
       <div class="box generic">G</div>
-      <div class="box generic">G</div> -->
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
     </div>
   </body>
 </html>
