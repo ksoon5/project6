@@ -7,17 +7,33 @@
     <title>Flexbox Tutorial</title>
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      /* flex-basis base value and flex shortcut */
+      /* order === all children have order:0 by default */
+      /* align-self  */
+      /* flex-grow */
+      /* flex-shrink */
+      /* flex-shrink all children have flex-shrink:1 */
       .container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
       }
-      .box {
-        /* i want items to grow to parent size (1), but not shrink (0) to smaller than 200 (3), in which case the wrap again */
-        /* flex: 1 0 200px; */
-        flex: 0 0 calc(20% - 1rem);
+      .box-2 {
+        width: 200px;
+        flex-shrink: 0;
       }
+      /* .box-1 {
+        flex-grow: 4;
+      }
+      .box-2 {
+        flex-grow: 2;
+      } */
+      /* .box-5 {
+        align-self: stretch;
+      } */
+      /* .box-1 {
+        order: 1;
+      }
+      .box-5 {
+        order: -1;
+      } */
     </style>
   </head>
   <body>
