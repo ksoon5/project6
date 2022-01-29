@@ -36,3 +36,39 @@ body {
 .generic {
   background: #202c59;
 }
+
+/* Nav */
+
+h2 {
+  /* margin-bottom: 0; */
+  color: #645cff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav {
+  height: 5rem;
+  padding: 2 2rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 0 0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #222;
+  font-size: 1.25;
+  /* margin-left: 0.5rem; */
+}
+
+h2 {
+  font-size: 40px;
+}
